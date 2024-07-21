@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"slices"
 	"time"
 )
 
@@ -19,6 +20,7 @@ func main() {
 		}
 	}
 
+	slices.Sort(numberList)
 	fmt.Println("Number List:", numberList)
 
 }
