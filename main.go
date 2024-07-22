@@ -20,6 +20,7 @@ func main() {
 		}
 	}
 
+	// 오름차순 정렬
 	slices.Sort(numberList)
 	fmt.Println("Number List:", numberList)
 
